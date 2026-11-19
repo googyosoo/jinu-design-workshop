@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*.token
+
+# Build & Distribution outputs
+dist/
+build/
+out/
+.vercel/
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+temp_script.js
+test_cust.js
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Privacy & Student Records Protection
+*학생*
+*인적사항*
+*성적*
+*명단*
+*개인정보*
+*privacy*
